@@ -27,13 +27,13 @@ export const metadata: Metadata = {
     siteName: "KodBuster",
     title: "KodBuster — продающие сайты для бизнеса",
     description,
-    images: [{ url: pageUrl("images/hero-auto-owner.webp"), alt: "Собственник проверяет новую заявку с сайта на смартфоне" }],
+    images: [{ url: pageUrl("images/new_hero_1.png"), alt: "Собственник проверяет новую заявку с сайта на смартфоне" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "KodBuster — продающие сайты для бизнеса",
     description,
-    images: [pageUrl("images/hero-auto-owner.webp")],
+    images: [pageUrl("images/new_hero_1.png")],
   },
 };
 

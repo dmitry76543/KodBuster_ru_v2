@@ -13,7 +13,7 @@ const scenes = [
     title: "Вас находят",
     meta: "Поиск · Карты · Нейросети",
     copy: "Помогаем поиску, картам и нейросетям правильно понять, кому и чем полезен ваш бизнес.",
-    image: "/images/hero-vet-owner.webp",
+    image: "/images/new_hero_1.png",
     alt: "Владелица ветеринарной клиники обсуждает расписание с администратором",
   },
   {
@@ -21,7 +21,7 @@ const scenes = [
     title: "Вам доверяют",
     meta: "Структура · Работы · Цены",
     copy: "Человек видит ваш подход, примеры и условия — и понимает, почему стоит обратиться именно к вам.",
-    image: "/images/hero-cosmetology-owner.webp",
+    image: "/images/new_hero_2.png",
     alt: "Владелица косметологической клиники обсуждает обращения с управляющей",
   },
   {
@@ -29,7 +29,7 @@ const scenes = [
     title: "К вам обращаются",
     meta: "Заявка · Telegram · MAX",
     copy: "Клиент оставляет контакты, а собственник получает уведомление прямо на смартфон.",
-    image: "/images/hero-auto-owner.webp",
+    image: "/images/new_hero_3.png",
     alt: "Собственник автоцентра проверяет новые обращения вместе с мастером-приёмщиком",
   },
 ] as const;
@@ -107,7 +107,7 @@ export function StoryHero() {
           </div>
 
           <div className="story-intro" data-hidden={activeScene !== -1}>
-            <h1 id="hero-title">Разные бизнесы.<br />Одна цель — чтобы<br /><em>выбрали вас.</em></h1>
+            <h1 id="hero-title">Не просто сайт. Система <em>привлечения клиентов.</em></h1>
             <div className="story-intro-bottom">
               <div>
                 <p className="story-kicker">Сайты для реального бизнеса</p>
@@ -156,7 +156,7 @@ export function StoryHero() {
 
             {index === 0 ? (
               <div className="mobile-story-content mobile-story-intro">
-                <h1>Разные бизнесы.<br />Одна цель —<br /><em>чтобы выбрали вас.</em></h1>
+                <h1>Не просто сайт. Система <em>привлечения клиентов.</em></h1>
                 <p className="story-kicker">Сайты для реального бизнеса</p>
                 <p>Показываем ценность бизнеса и передаём новую заявку прямо на смартфон.</p>
                 <PrimaryLink />

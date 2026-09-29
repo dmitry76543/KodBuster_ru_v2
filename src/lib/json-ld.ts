@@ -18,7 +18,7 @@ function organization() {
     url: siteRoot(),
     description: "Студия продающих сайтов для локального бизнеса. Заявка с сайта приходит владельцу в Telegram или MAX.",
     logo: pageUrl("favicon.svg"),
-    image: pageUrl("images/hero-auto-owner.webp"),
+    image: pageUrl("images/new_hero_1.png"),
     inLanguage: "ru-RU",
     knowsLanguage: "ru",
     sameAs,
@@ -92,7 +92,7 @@ export function homeJsonLd() {
         inLanguage: "ru-RU",
         isPartOf: { "@id": `${root}#website` },
         about: { "@id": `${root}#organization` },
-        primaryImageOfPage: pageUrl("images/hero-auto-owner.webp"),
+        primaryImageOfPage: pageUrl("images/new_hero_1.png"),
         mainEntity: { "@id": `${root}#organization` },
       },
       {
